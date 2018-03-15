@@ -71,7 +71,7 @@ require = (function (modules, cache, entry) {
 
   // Override the current require with this new one
   return newRequire;
-})({7:[function(require,module,exports) {
+})({6:[function(require,module,exports) {
 var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"]) _i["return"](); } finally { if (_d) throw _e; } } return _arr; } return function (arr, i) { if (Array.isArray(arr)) { return arr; } else if (Symbol.iterator in Object(arr)) { return sliceIterator(arr, i); } else { throw new TypeError("Invalid attempt to destructure non-iterable instance"); } }; }();
 
 function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } else { return Array.from(arr); } }
@@ -136,7 +136,7 @@ document.addEventListener('scroll', function () {
 });
 
 finishScroll();
-},{}],6:[function(require,module,exports) {
+},{}],7:[function(require,module,exports) {
 function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } else { return Array.from(arr); } }
 
 [].concat(_toConsumableArray(document.querySelectorAll('[data-typewriter]'))).forEach(function (e) {
@@ -291,4 +291,4 @@ require('./video.js');
 require('./modal.js');
 
 require('./timeline.js');
-},{"./nav.js":7,"./typewriter.js":6,"./video.js":8,"./modal.js":9,"./timeline.js":10}]},{},[4])
+},{"./nav.js":6,"./typewriter.js":7,"./video.js":8,"./modal.js":9,"./timeline.js":10}]},{},[4])

@@ -330,6 +330,7 @@
   text-decoration: none;
 }
 .container.meet .bio .pic {
+  flex-shrink: 0;
   display: inline-block;
   background-size: 100% auto;
   background-repeat: no-repeat;
