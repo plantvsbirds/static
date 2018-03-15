@@ -166,7 +166,7 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
     update(0);
   } catch (e) {}
 });
-},{}],11:[function(require,module,exports) {
+},{}],26:[function(require,module,exports) {
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -222,7 +222,7 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
     (0, _util.$class)(e, 'paused', true);
   });
 });
-},{"./util.js":11}],9:[function(require,module,exports) {
+},{"./util.js":26}],9:[function(require,module,exports) {
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {

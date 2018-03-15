@@ -71,7 +71,7 @@ require = (function (modules, cache, entry) {
 
   // Override the current require with this new one
   return newRequire;
-})({27:[function(require,module,exports) {
+})({43:[function(require,module,exports) {
 var bundleURL = null;
 function getBundleURLCached() {
   if (!bundleURL) {
@@ -101,7 +101,7 @@ function getBaseURL(url) {
 
 exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
-},{}],10:[function(require,module,exports) {
+},{}],27:[function(require,module,exports) {
 var bundle = require('./bundle-url');
 
 function updateLink(link) {
@@ -132,13 +132,13 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":27}],2:[function(require,module,exports) {
+},{"./bundle-url":43}],2:[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"./../assets/bg.jpg":11,"./../assets/poster.jpg":12,"./../assets/play.svg":13,"./../assets/meet/childhood.jpg":19,"./../assets/meet/fbi-academy.jpg":20,"./../assets/meet/iraq.jpg":21,"./../assets/meet/north-africa.jpg":22,"./../assets/meet/family.jpg":23,"./../assets/meet/scholar.jpg":24,"./../assets/meet/running.jpg":25,"./../assets/wgn.png":14,"./../assets/hightimes.png":15,"./../assets/bg-bw.jpg":16,"./../assets/logo-white-try.svg":17,"./../assets/arrow.svg":18,"_css_loader":10}],91:[function(require,module,exports) {
+},{"./../assets/bg.jpg":28,"./../assets/poster.jpg":29,"./../assets/play.svg":30,"./../assets/meet/childhood.jpg":36,"./../assets/meet/fbi-academy.jpg":38,"./../assets/meet/iraq.jpg":37,"./../assets/meet/north-africa.jpg":39,"./../assets/meet/family.jpg":40,"./../assets/meet/scholar.jpg":41,"./../assets/meet/running.jpg":42,"./../assets/wgn.png":31,"./../assets/hightimes.png":32,"./../assets/bg-bw.jpg":33,"./../assets/logo-white-try.svg":34,"./../assets/arrow.svg":35,"_css_loader":27}],53:[function(require,module,exports) {
 
 var global = (1, eval)('this');
 var OldModule = module.bundle.Module;
@@ -160,7 +160,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '60719' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '50581' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
@@ -261,7 +261,7 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.require, id);
   });
 }
-},{}],92:[function(require,module,exports) {
+},{}],54:[function(require,module,exports) {
 var getBundleURL = require('./bundle-url').getBundleURL;
 
 function loadBundlesLazy(bundles) {
@@ -340,7 +340,7 @@ LazyPromise.prototype.then = function (onSuccess, onError) {
 LazyPromise.prototype.catch = function (onError) {
   return this.promise || (this.promise = new Promise(this.executor).catch(onError));
 };
-},{"./bundle-url":27}],0:[function(require,module,exports) {
-var b=require(92);b.load([["b4ddc1ad06d960f63df3adfb15859d24.jpg",11],["82a2aed61998eee462532b4626362dbf.jpg",12],["ec7521502ae9fa5fb0b62e2d501a45f9.svg",13],["5bb9cca32b0c9658bc49df07a7b84273.jpg",19],["f13ff96814189eb9f02c9a29b88e58fd.jpg",20],["6eafa09ba692a24f6512b959abf28f12.jpg",21],["aa2b36ba8ecec47983d733264ef8b0ce.jpg",22],["f95d9b9b9589a61c200f9d5aff1bbe6d.jpg",23],["ffefdb56b6a03808694808607c970ae8.jpg",24],["c39a3961538655ae9e82adfde4122767.jpg",25],["72add114b4e10c7791bfdcafc679d250.png",14],["7b6c3d8ebb07df6d96a9747ffbc98343.png",15],["677feeca1ba223a3c87e3af76f8fd713.jpg",16],["e8cba8631b70809f28cae6215591e53b.svg",17],["917134812eaca7698d35bda89a2817ce.svg",18]]);
-},{}]},{},[91,0])
+},{"./bundle-url":43}],0:[function(require,module,exports) {
+var b=require(54);b.load([["b4ddc1ad06d960f63df3adfb15859d24.jpg",28],["82a2aed61998eee462532b4626362dbf.jpg",29],["ec7521502ae9fa5fb0b62e2d501a45f9.svg",30],["5bb9cca32b0c9658bc49df07a7b84273.jpg",36],["f13ff96814189eb9f02c9a29b88e58fd.jpg",38],["6eafa09ba692a24f6512b959abf28f12.jpg",37],["aa2b36ba8ecec47983d733264ef8b0ce.jpg",39],["f95d9b9b9589a61c200f9d5aff1bbe6d.jpg",40],["ffefdb56b6a03808694808607c970ae8.jpg",41],["c39a3961538655ae9e82adfde4122767.jpg",42],["72add114b4e10c7791bfdcafc679d250.png",31],["7b6c3d8ebb07df6d96a9747ffbc98343.png",32],["677feeca1ba223a3c87e3af76f8fd713.jpg",33],["e8cba8631b70809f28cae6215591e53b.svg",34],["917134812eaca7698d35bda89a2817ce.svg",35]]);
+},{}]},{},[53,0])
 //# sourceMappingURL=/dist/142ea30272e0e0bd9de8508fd1a76a96.map
