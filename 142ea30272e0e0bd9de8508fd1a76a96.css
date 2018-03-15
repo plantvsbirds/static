@@ -191,17 +191,8 @@
   }
 }
 .container.watch .video video {
+  width: 100%;
   z-index: 1;
-}
-@media screen and (min-width: 800px) {
-  body .container.watch .video video {
-    height: 100%;
-  }
-}
-@media screen and (max-width: 800px) {
-  body .container.watch .video video {
-    width: 100%;
-  }
 }
 .container.watch .video.paused:before {
   content: "";

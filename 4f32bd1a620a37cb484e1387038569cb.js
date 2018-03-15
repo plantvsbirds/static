@@ -71,7 +71,7 @@ require = (function (modules, cache, entry) {
 
   // Override the current require with this new one
   return newRequire;
-})({10:[function(require,module,exports) {
+})({7:[function(require,module,exports) {
 var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"]) _i["return"](); } finally { if (_d) throw _e; } } return _arr; } return function (arr, i) { if (Array.isArray(arr)) { return arr; } else if (Symbol.iterator in Object(arr)) { return sliceIterator(arr, i); } else { throw new TypeError("Invalid attempt to destructure non-iterable instance"); } }; }();
 
 function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } else { return Array.from(arr); } }
@@ -136,7 +136,7 @@ document.addEventListener('scroll', function () {
 });
 
 finishScroll();
-},{}],11:[function(require,module,exports) {
+},{}],6:[function(require,module,exports) {
 function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } else { return Array.from(arr); } }
 
 [].concat(_toConsumableArray(document.querySelectorAll('[data-typewriter]'))).forEach(function (e) {
@@ -166,7 +166,7 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
     update(0);
   } catch (e) {}
 });
-},{}],30:[function(require,module,exports) {
+},{}],11:[function(require,module,exports) {
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -191,7 +191,7 @@ var $class = exports.$class = function $class(el, cls, setTo) {
     }
   }
 };
-},{}],12:[function(require,module,exports) {
+},{}],8:[function(require,module,exports) {
 'use strict';
 
 var _util = require('./util.js');
@@ -222,7 +222,7 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
     (0, _util.$class)(e, 'paused', true);
   });
 });
-},{"./util.js":30}],13:[function(require,module,exports) {
+},{"./util.js":11}],9:[function(require,module,exports) {
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -254,7 +254,7 @@ var closeModal = exports.closeModal = function closeModal() {
 };
 
 returnBtn.addEventListener('click', closeModal);
-},{}],14:[function(require,module,exports) {
+},{}],10:[function(require,module,exports) {
 'use strict';
 
 var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"]) _i["return"](); } finally { if (_d) throw _e; } } return _arr; } return function (arr, i) { if (Array.isArray(arr)) { return arr; } else if (Symbol.iterator in Object(arr)) { return sliceIterator(arr, i); } else { throw new TypeError("Invalid attempt to destructure non-iterable instance"); } }; }();
@@ -279,7 +279,7 @@ data.forEach(function (_ref) {
     (0, _modal.launchModal)();
   });
 });
-},{"./modal.js":13}],8:[function(require,module,exports) {
+},{"./modal.js":9}],4:[function(require,module,exports) {
 'use strict';
 
 require('./nav.js');
@@ -291,4 +291,4 @@ require('./video.js');
 require('./modal.js');
 
 require('./timeline.js');
-},{"./nav.js":10,"./typewriter.js":11,"./video.js":12,"./modal.js":13,"./timeline.js":14}]},{},[8])
+},{"./nav.js":7,"./typewriter.js":6,"./video.js":8,"./modal.js":9,"./timeline.js":10}]},{},[4])
