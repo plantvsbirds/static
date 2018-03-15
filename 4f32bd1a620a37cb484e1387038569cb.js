@@ -166,7 +166,7 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
     update(0);
   } catch (e) {}
 });
-},{}],45:[function(require,module,exports) {
+},{}],30:[function(require,module,exports) {
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -222,7 +222,7 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
     (0, _util.$class)(e, 'paused', true);
   });
 });
-},{"./util.js":45}],13:[function(require,module,exports) {
+},{"./util.js":30}],13:[function(require,module,exports) {
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -279,7 +279,7 @@ data.forEach(function (_ref) {
     (0, _modal.launchModal)();
   });
 });
-},{"./modal.js":13}],7:[function(require,module,exports) {
+},{"./modal.js":13}],8:[function(require,module,exports) {
 'use strict';
 
 require('./nav.js');
@@ -291,4 +291,4 @@ require('./video.js');
 require('./modal.js');
 
 require('./timeline.js');
-},{"./nav.js":10,"./typewriter.js":11,"./video.js":12,"./modal.js":13,"./timeline.js":14}]},{},[7])
+},{"./nav.js":10,"./typewriter.js":11,"./video.js":12,"./modal.js":13,"./timeline.js":14}]},{},[8])

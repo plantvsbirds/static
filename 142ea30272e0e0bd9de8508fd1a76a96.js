@@ -138,7 +138,7 @@ module.exports = reloadCSS;
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"./../assets/bg.jpg":11,"./../assets/poster.jpg":12,"./../assets/play.svg":13,"./../assets/meet/childhood.jpg":20,"./../assets/meet/fbi-academy.jpg":19,"./../assets/meet/iraq.jpg":21,"./../assets/meet/north-africa.jpg":22,"./../assets/meet/family.jpg":23,"./../assets/meet/scholar.jpg":24,"./../assets/meet/running.jpg":25,"./../assets/wgn.png":14,"./../assets/hightimes.png":15,"./../assets/bg-bw.jpg":16,"./../assets/logo-white-try.svg":17,"./../assets/arrow.svg":18,"_css_loader":10}],28:[function(require,module,exports) {
+},{"./../assets/bg.jpg":11,"./../assets/poster.jpg":12,"./../assets/play.svg":13,"./../assets/meet/childhood.jpg":19,"./../assets/meet/fbi-academy.jpg":20,"./../assets/meet/iraq.jpg":21,"./../assets/meet/north-africa.jpg":22,"./../assets/meet/family.jpg":23,"./../assets/meet/scholar.jpg":24,"./../assets/meet/running.jpg":25,"./../assets/wgn.png":14,"./../assets/hightimes.png":15,"./../assets/bg-bw.jpg":16,"./../assets/logo-white-try.svg":17,"./../assets/arrow.svg":18,"_css_loader":10}],91:[function(require,module,exports) {
 
 var global = (1, eval)('this');
 var OldModule = module.bundle.Module;
@@ -160,7 +160,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '56268' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '60719' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
@@ -261,7 +261,7 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.require, id);
   });
 }
-},{}],30:[function(require,module,exports) {
+},{}],92:[function(require,module,exports) {
 var getBundleURL = require('./bundle-url').getBundleURL;
 
 function loadBundlesLazy(bundles) {
@@ -341,6 +341,6 @@ LazyPromise.prototype.catch = function (onError) {
   return this.promise || (this.promise = new Promise(this.executor).catch(onError));
 };
 },{"./bundle-url":27}],0:[function(require,module,exports) {
-var b=require(30);b.load([["b4ddc1ad06d960f63df3adfb15859d24.jpg",11],["82a2aed61998eee462532b4626362dbf.jpg",12],["ec7521502ae9fa5fb0b62e2d501a45f9.svg",13],["5bb9cca32b0c9658bc49df07a7b84273.jpg",20],["f13ff96814189eb9f02c9a29b88e58fd.jpg",19],["6eafa09ba692a24f6512b959abf28f12.jpg",21],["aa2b36ba8ecec47983d733264ef8b0ce.jpg",22],["f95d9b9b9589a61c200f9d5aff1bbe6d.jpg",23],["ffefdb56b6a03808694808607c970ae8.jpg",24],["c39a3961538655ae9e82adfde4122767.jpg",25],["72add114b4e10c7791bfdcafc679d250.png",14],["7b6c3d8ebb07df6d96a9747ffbc98343.png",15],["677feeca1ba223a3c87e3af76f8fd713.jpg",16],["e8cba8631b70809f28cae6215591e53b.svg",17],["917134812eaca7698d35bda89a2817ce.svg",18]]);
-},{}]},{},[28,0])
+var b=require(92);b.load([["b4ddc1ad06d960f63df3adfb15859d24.jpg",11],["82a2aed61998eee462532b4626362dbf.jpg",12],["ec7521502ae9fa5fb0b62e2d501a45f9.svg",13],["5bb9cca32b0c9658bc49df07a7b84273.jpg",19],["f13ff96814189eb9f02c9a29b88e58fd.jpg",20],["6eafa09ba692a24f6512b959abf28f12.jpg",21],["aa2b36ba8ecec47983d733264ef8b0ce.jpg",22],["f95d9b9b9589a61c200f9d5aff1bbe6d.jpg",23],["ffefdb56b6a03808694808607c970ae8.jpg",24],["c39a3961538655ae9e82adfde4122767.jpg",25],["72add114b4e10c7791bfdcafc679d250.png",14],["7b6c3d8ebb07df6d96a9747ffbc98343.png",15],["677feeca1ba223a3c87e3af76f8fd713.jpg",16],["e8cba8631b70809f28cae6215591e53b.svg",17],["917134812eaca7698d35bda89a2817ce.svg",18]]);
+},{}]},{},[91,0])
 //# sourceMappingURL=/dist/142ea30272e0e0bd9de8508fd1a76a96.map
