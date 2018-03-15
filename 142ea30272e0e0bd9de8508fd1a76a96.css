@@ -81,6 +81,8 @@
 }
 @media screen and (min-width: 800px) {
   body .container.title {
+    max-width: 960px;
+    margin: 0 auto;
     background-position: right 20% bottom 0%;
   }
 }
@@ -113,8 +115,9 @@
 }
 @media screen and (min-width: 800px) {
   body .container.title div.title-box {
-    left: 15%;
+    right: 60%;
     width: 30%;
+    max-width: 350px;
   }
 }
 @media screen and (max-width: 800px) {
@@ -122,6 +125,8 @@
     top: 10%;
     width: 100%;
     text-align: center;
+    left: 0;
+    right: 0;
   }
 }
 .btn,
@@ -152,6 +157,19 @@
 .container.watch {
   background: #c6c6c6;
   color: #000;
+}
+.container.watch .content {
+  display: flex;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+.container.watch .video,
+.container.watch .goal-box {
+  width: 50%;
+  flex-grow: 0;
+  flex-basis: 1;
+  flex-shrink: 0;
 }
 .container.watch .video {
   position: relative;
@@ -205,7 +223,7 @@
 .container.watch .goal-box {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: center;
 }
 @media screen and (max-width: 800px) {
   body .container.watch {
@@ -234,9 +252,6 @@
   }
   body .container.watch .word {
     font-size: 1.5em;
-  }
-  body .container.watch .goal-box {
-    padding-bottom: 30%;
   }
 }
 .btn,
@@ -278,13 +293,16 @@
 @media screen and (min-width: 800px) {
   body .container.meet .timeline {
     position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
     top: 5%;
   }
   body .container.meet .timeline:after {
-    width: 100vw;
+    width: 10000vw;
     top: 100%;
     margin-top: 0.5em;
     border-bottom: 0.5em solid #fff;
+    transform: translateX(-50%);
   }
   body .container.meet .timeline > .bio:nth-child(even) {
     flex-direction: column-reverse;
@@ -444,7 +462,7 @@
 @media screen and (min-width: 800px) {
   body .container.read .box {
     display: flex;
-    width: 90%;
+    max-width: 960px;
     margin: 0 auto;
     padding: 2em;
   }
@@ -612,6 +630,8 @@
   text-align: center;
 }
 .container.engage .box {
+  max-width: 960px;
+  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
 }

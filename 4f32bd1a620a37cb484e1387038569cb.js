@@ -136,7 +136,7 @@ document.addEventListener('scroll', function () {
 });
 
 finishScroll();
-},{}],12:[function(require,module,exports) {
+},{}],11:[function(require,module,exports) {
 function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } else { return Array.from(arr); } }
 
 [].concat(_toConsumableArray(document.querySelectorAll('[data-typewriter]'))).forEach(function (e) {
@@ -166,7 +166,7 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
     update(0);
   } catch (e) {}
 });
-},{}],46:[function(require,module,exports) {
+},{}],45:[function(require,module,exports) {
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -191,7 +191,7 @@ var $class = exports.$class = function $class(el, cls, setTo) {
     }
   }
 };
-},{}],11:[function(require,module,exports) {
+},{}],12:[function(require,module,exports) {
 'use strict';
 
 var _util = require('./util.js');
@@ -222,7 +222,7 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
     (0, _util.$class)(e, 'paused', true);
   });
 });
-},{"./util.js":46}],13:[function(require,module,exports) {
+},{"./util.js":45}],13:[function(require,module,exports) {
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -291,4 +291,4 @@ require('./video.js');
 require('./modal.js');
 
 require('./timeline.js');
-},{"./nav.js":10,"./typewriter.js":12,"./video.js":11,"./modal.js":13,"./timeline.js":14}]},{},[7])
+},{"./nav.js":10,"./typewriter.js":11,"./video.js":12,"./modal.js":13,"./timeline.js":14}]},{},[7])
